@@ -49,7 +49,7 @@ bytes) or config object in the following format:
 All keys in config are optional.
 
 
-#### .update(data[, offset, length])
+#### .update(data[]: Uint8Array, offset: number, length: number)
 
 Updates the hash with data (a `Uint8Array` or `Array` of bytes).  starting at
 the given `offset` (optional, defaults to 0) and consuming the given `length`
